@@ -22,8 +22,6 @@ namespace UiEx
         private void Awake()
         {
             _defaultSprite = this.gameObject.GetComponent<Image>().sprite;
-            //onClickに実行したい関数を登録する
-            onClick.AddListener(TestOnClick);
         }
 
         #endregion
